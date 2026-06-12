@@ -1,0 +1,24 @@
+# Global Ignores
+.venv/
+.yolo_config/
+.tmp/
+**/.env
+**/__pycache__/
+*.py[cod]
+*.log
+*.pt
+.DS_Store
+
+# Core App ignores
+/datasets/*
+!/datasets/mealawe_yolo_seg_v2/
+!/datasets/mealawe_yolo_seg_v2/**
+runs/
+evaluation/
+/Mealawe 2.coco/
+/Mealawe 2.coco-segmentation/
+/Mealawe 2.coco-segmentation (1)/
+
+# Verification Pipeline Ignores
+quality-verification/results/
+quality-verification/Testing images/
